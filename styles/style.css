@@ -96,6 +96,168 @@ body {
     color: #E95A08;
 }
 
+/* our plant part */
+.popu{
+    font-size: 50;
+    font-weight: bold;
+    color: #E95A08;
+    
+}
+.plants-section {
+  padding: 60px 30px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.section-header p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.plant-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.plant-card:hover {
+  transform: translateY(-5px);
+}
+
+.plant-card img {
+  width: 270px;
+  height: 323px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 15px;
+  border-radius: 6px;
+  background-color: #f0f0f0;
+}
+
+.plant-card h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.plant-card p {
+  font-size: 16px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.plant-card button {
+  padding: 8px 15px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.plant-card button {
+  width: 100%;
+  padding: 12px 0;
+  background-color:#E95A08;
+  color: white;
+  border: none;
+  border-radius: 0 0 8px 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.plant-card button:hover {
+  background-color:#E95A08;
+}
+
+/* plant lover part */
+.plants-lover {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1140px;
+  height: 461px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: #f0fdf4;
+  border-radius: 12px;
+}
+
+.plants-lover-image {
+  flex: 1;
+  text-align: left;
+}
+
+.plants-lover-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.plants-lover-content {
+  flex: 1;
+  padding-left: 40px;
+}
+
+.plants-lover-content h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #065f46;
+}
+
+.plants-lover-content p {
+  font-size: 16px;
+  color: #374151;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.plants-lover-content button {
+  padding: 12px 30px;
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.plants-lover-content button:hover {
+  background-color: #12833c;
+}
+
+
+
+
+
+/* ✅ Mobile Responsive */
+@media (max-width: 768px) {
+  .plant-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   .nav-items a:not(.cart-icon) {
